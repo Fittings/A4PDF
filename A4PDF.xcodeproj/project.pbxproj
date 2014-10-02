@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DC227619DD37D700CAFDAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC227519DD37D700CAFDAB /* Cocoa.framework */; };
+		18DC228019DD37D700CAFDAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DC227E19DD37D700CAFDAB /* InfoPlist.strings */; };
+		18DC228219DD37D700CAFDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC228119DD37D700CAFDAB /* main.m */; };
+		18DC228619DD37D700CAFDAB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18DC228419DD37D700CAFDAB /* Credits.rtf */; };
+		18DC228919DD37D700CAFDAB /* CAPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC228819DD37D700CAFDAB /* CAPDFDocument.m */; };
+		18DC228C19DD37D700CAFDAB /* CAPDFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC228A19DD37D700CAFDAB /* CAPDFDocument.xib */; };
+		18DC228F19DD37D700CAFDAB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC228D19DD37D700CAFDAB /* MainMenu.xib */; };
+		18DC229119DD37D700CAFDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC229019DD37D700CAFDAB /* Images.xcassets */; };
+		18DC229819DD37D700CAFDAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC229719DD37D700CAFDAB /* XCTest.framework */; };
+		18DC229919DD37D700CAFDAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC227519DD37D700CAFDAB /* Cocoa.framework */; };
+		18DC22A119DD37D700CAFDAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DC229F19DD37D700CAFDAB /* InfoPlist.strings */; };
+		18DC22A319DD37D700CAFDAB /* A4PDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC22A219DD37D700CAFDAB /* A4PDFTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DC229A19DD37D700CAFDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DC226A19DD37D700CAFDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DC227119DD37D700CAFDAB;
+			remoteInfo = A4PDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DC227219DD37D700CAFDAB /* A4PDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A4PDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DC227519DD37D700CAFDAB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18DC227819DD37D700CAFDAB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18DC227919DD37D700CAFDAB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18DC227A19DD37D700CAFDAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18DC227D19DD37D700CAFDAB /* A4PDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A4PDF-Info.plist"; sourceTree = "<group>"; };
+		18DC227F19DD37D700CAFDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18DC228119DD37D700CAFDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DC228319DD37D700CAFDAB /* A4PDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A4PDF-Prefix.pch"; sourceTree = "<group>"; };
+		18DC228519DD37D700CAFDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		18DC228719DD37D700CAFDAB /* CAPDFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAPDFDocument.h; sourceTree = "<group>"; };
+		18DC228819DD37D700CAFDAB /* CAPDFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAPDFDocument.m; sourceTree = "<group>"; };
+		18DC228B19DD37D700CAFDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CAPDFDocument.xib; sourceTree = "<group>"; };
+		18DC228E19DD37D700CAFDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18DC229019DD37D700CAFDAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18DC229619DD37D700CAFDAB /* A4PDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A4PDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DC229719DD37D700CAFDAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18DC229E19DD37D700CAFDAB /* A4PDFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A4PDFTests-Info.plist"; sourceTree = "<group>"; };
+		18DC22A019DD37D700CAFDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18DC22A219DD37D700CAFDAB /* A4PDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A4PDFTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DC226F19DD37D700CAFDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC227619DD37D700CAFDAB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DC229319DD37D700CAFDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC229919DD37D700CAFDAB /* Cocoa.framework in Frameworks */,
+				18DC229819DD37D700CAFDAB /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DC226919DD37D700CAFDAB = {
+			isa = PBXGroup;
+			children = (
+				18DC227B19DD37D700CAFDAB /* A4PDF */,
+				18DC229C19DD37D700CAFDAB /* A4PDFTests */,
+				18DC227419DD37D700CAFDAB /* Frameworks */,
+				18DC227319DD37D700CAFDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DC227319DD37D700CAFDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DC227219DD37D700CAFDAB /* A4PDF.app */,
+				18DC229619DD37D700CAFDAB /* A4PDFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DC227419DD37D700CAFDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DC227519DD37D700CAFDAB /* Cocoa.framework */,
+				18DC229719DD37D700CAFDAB /* XCTest.framework */,
+				18DC227719DD37D700CAFDAB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DC227719DD37D700CAFDAB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DC227819DD37D700CAFDAB /* AppKit.framework */,
+				18DC227919DD37D700CAFDAB /* CoreData.framework */,
+				18DC227A19DD37D700CAFDAB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18DC227B19DD37D700CAFDAB /* A4PDF */ = {
+			isa = PBXGroup;
+			children = (
+				18DC228719DD37D700CAFDAB /* CAPDFDocument.h */,
+				18DC228819DD37D700CAFDAB /* CAPDFDocument.m */,
+				18DC228A19DD37D700CAFDAB /* CAPDFDocument.xib */,
+				18DC228D19DD37D700CAFDAB /* MainMenu.xib */,
+				18DC229019DD37D700CAFDAB /* Images.xcassets */,
+				18DC227C19DD37D700CAFDAB /* Supporting Files */,
+			);
+			path = A4PDF;
+			sourceTree = "<group>";
+		};
+		18DC227C19DD37D700CAFDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DC227D19DD37D700CAFDAB /* A4PDF-Info.plist */,
+				18DC227E19DD37D700CAFDAB /* InfoPlist.strings */,
+				18DC228119DD37D700CAFDAB /* main.m */,
+				18DC228319DD37D700CAFDAB /* A4PDF-Prefix.pch */,
+				18DC228419DD37D700CAFDAB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DC229C19DD37D700CAFDAB /* A4PDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DC22A219DD37D700CAFDAB /* A4PDFTests.m */,
+				18DC229D19DD37D700CAFDAB /* Supporting Files */,
+			);
+			path = A4PDFTests;
+			sourceTree = "<group>";
+		};
+		18DC229D19DD37D700CAFDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DC229E19DD37D700CAFDAB /* A4PDFTests-Info.plist */,
+				18DC229F19DD37D700CAFDAB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DC227119DD37D700CAFDAB /* A4PDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DC22A619DD37D700CAFDAB /* Build configuration list for PBXNativeTarget "A4PDF" */;
+			buildPhases = (
+				18DC226E19DD37D700CAFDAB /* Sources */,
+				18DC226F19DD37D700CAFDAB /* Frameworks */,
+				18DC227019DD37D700CAFDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A4PDF;
+			productName = A4PDF;
+			productReference = 18DC227219DD37D700CAFDAB /* A4PDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DC229519DD37D700CAFDAB /* A4PDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DC22A919DD37D700CAFDAB /* Build configuration list for PBXNativeTarget "A4PDFTests" */;
+			buildPhases = (
+				18DC229219DD37D700CAFDAB /* Sources */,
+				18DC229319DD37D700CAFDAB /* Frameworks */,
+				18DC229419DD37D700CAFDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DC229B19DD37D700CAFDAB /* PBXTargetDependency */,
+			);
+			name = A4PDFTests;
+			productName = A4PDFTests;
+			productReference = 18DC229619DD37D700CAFDAB /* A4PDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DC226A19DD37D700CAFDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAPDF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cmilsom;
+				TargetAttributes = {
+					18DC229519DD37D700CAFDAB = {
+						TestTargetID = 18DC227119DD37D700CAFDAB;
+					};
+				};
+			};
+			buildConfigurationList = 18DC226D19DD37D700CAFDAB /* Build configuration list for PBXProject "A4PDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DC226919DD37D700CAFDAB;
+			productRefGroup = 18DC227319DD37D700CAFDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DC227119DD37D700CAFDAB /* A4PDF */,
+				18DC229519DD37D700CAFDAB /* A4PDFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DC227019DD37D700CAFDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC228019DD37D700CAFDAB /* InfoPlist.strings in Resources */,
+				18DC229119DD37D700CAFDAB /* Images.xcassets in Resources */,
+				18DC228C19DD37D700CAFDAB /* CAPDFDocument.xib in Resources */,
+				18DC228619DD37D700CAFDAB /* Credits.rtf in Resources */,
+				18DC228F19DD37D700CAFDAB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DC229419DD37D700CAFDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC22A119DD37D700CAFDAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DC226E19DD37D700CAFDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC228219DD37D700CAFDAB /* main.m in Sources */,
+				18DC228919DD37D700CAFDAB /* CAPDFDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DC229219DD37D700CAFDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DC22A319DD37D700CAFDAB /* A4PDFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DC229B19DD37D700CAFDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DC227119DD37D700CAFDAB /* A4PDF */;
+			targetProxy = 18DC229A19DD37D700CAFDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DC227E19DD37D700CAFDAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DC227F19DD37D700CAFDAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18DC228419DD37D700CAFDAB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DC228519DD37D700CAFDAB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		18DC228A19DD37D700CAFDAB /* CAPDFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DC228B19DD37D700CAFDAB /* Base */,
+			);
+			name = CAPDFDocument.xib;
+			sourceTree = "<group>";
+		};
+		18DC228D19DD37D700CAFDAB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DC228E19DD37D700CAFDAB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		18DC229F19DD37D700CAFDAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DC22A019DD37D700CAFDAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DC22A419DD37D700CAFDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18DC22A519DD37D700CAFDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18DC22A719DD37D700CAFDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A4PDF/A4PDF-Prefix.pch";
+				INFOPLIST_FILE = "A4PDF/A4PDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18DC22A819DD37D700CAFDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A4PDF/A4PDF-Prefix.pch";
+				INFOPLIST_FILE = "A4PDF/A4PDF-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18DC22AA19DD37D700CAFDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A4PDF.app/Contents/MacOS/A4PDF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A4PDF/A4PDF-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "A4PDFTests/A4PDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18DC22AB19DD37D700CAFDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A4PDF.app/Contents/MacOS/A4PDF";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A4PDF/A4PDF-Prefix.pch";
+				INFOPLIST_FILE = "A4PDFTests/A4PDFTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DC226D19DD37D700CAFDAB /* Build configuration list for PBXProject "A4PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DC22A419DD37D700CAFDAB /* Debug */,
+				18DC22A519DD37D700CAFDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DC22A619DD37D700CAFDAB /* Build configuration list for PBXNativeTarget "A4PDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DC22A719DD37D700CAFDAB /* Debug */,
+				18DC22A819DD37D700CAFDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18DC22A919DD37D700CAFDAB /* Build configuration list for PBXNativeTarget "A4PDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DC22AA19DD37D700CAFDAB /* Debug */,
+				18DC22AB19DD37D700CAFDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DC226A19DD37D700CAFDAB /* Project object */;
+}
