@@ -19,6 +19,7 @@
 		18DC229919DD37D700CAFDAB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC227519DD37D700CAFDAB /* Cocoa.framework */; };
 		18DC22A119DD37D700CAFDAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DC229F19DD37D700CAFDAB /* InfoPlist.strings */; };
 		18DC22A319DD37D700CAFDAB /* A4PDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC22A219DD37D700CAFDAB /* A4PDFTests.m */; };
+		18DC22AD19DD37EC00CAFDAB /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DC22AC19DD37EC00CAFDAB /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		18DC229E19DD37D700CAFDAB /* A4PDFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A4PDFTests-Info.plist"; sourceTree = "<group>"; };
 		18DC22A019DD37D700CAFDAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18DC22A219DD37D700CAFDAB /* A4PDFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A4PDFTests.m; sourceTree = "<group>"; };
+		18DC22AC19DD37EC00CAFDAB /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DC22AD19DD37EC00CAFDAB /* Quartz.framework in Frameworks */,
 				18DC227619DD37D700CAFDAB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +100,7 @@
 		18DC227419DD37D700CAFDAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18DC22AC19DD37EC00CAFDAB /* Quartz.framework */,
 				18DC227519DD37D700CAFDAB /* Cocoa.framework */,
 				18DC229719DD37D700CAFDAB /* XCTest.framework */,
 				18DC227719DD37D700CAFDAB /* Other Frameworks */,
@@ -479,6 +483,7 @@
 				18DC22A819DD37D700CAFDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DC22A919DD37D700CAFDAB /* Build configuration list for PBXNativeTarget "A4PDFTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +492,7 @@
 				18DC22AB19DD37D700CAFDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
